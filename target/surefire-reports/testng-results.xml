@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-05T11:46:15 IST" name="Suite" finished-at="2024-06-05T11:46:48 IST" duration-ms="32852">
+    <groups>
+      <group name="regression">
+        <method signature="TC1_ACRegistration.Verify_Registration()[pri:1, instance:testCases.TC1_ACRegistration@35d019a3]" name="Verify_Registration" class="testCases.TC1_ACRegistration"/>
+        <method signature="TC1_ACRegistration.Verify_Registrations()[pri:2, instance:testCases.TC1_ACRegistration@35d019a3]" name="Verify_Registrations" class="testCases.TC1_ACRegistration"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC2_Login.Logo()[pri:1, instance:testCases.TC2_Login@3023df74]" name="Logo" class="testCases.TC2_Login"/>
+        <method signature="TC2_Login.LoginSuccessful()[pri:2, instance:testCases.TC2_Login@3023df74]" name="LoginSuccessful" class="testCases.TC2_Login"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC1_ACRegistration.Verify_Registration()[pri:1, instance:testCases.TC1_ACRegistration@35d019a3]" name="Verify_Registration" class="testCases.TC1_ACRegistration"/>
+        <method signature="TC2_Login.Logo()[pri:1, instance:testCases.TC2_Login@3023df74]" name="Logo" class="testCases.TC2_Login"/>
+        <method signature="TC1_ACRegistration.Verify_Registrations()[pri:2, instance:testCases.TC1_ACRegistration@35d019a3]" name="Verify_Registrations" class="testCases.TC1_ACRegistration"/>
+        <method signature="TC2_Login.LoginSuccessful()[pri:2, instance:testCases.TC2_Login@3023df74]" name="LoginSuccessful" class="testCases.TC2_Login"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-06-05T11:46:15 IST" name="Test" finished-at="2024-06-05T11:46:48 IST" duration-ms="32852">
+      <class name="testCases.TC2_Login">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC2_Login@3023df74]" started-at="2024-06-05T11:46:32 IST" name="setup" finished-at="2024-06-05T11:46:37 IST" duration-ms="4865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Logo()[pri:1, instance:testCases.TC2_Login@3023df74]" started-at="2024-06-05T11:46:37 IST" name="Logo" finished-at="2024-06-05T11:46:38 IST" duration-ms="827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logo -->
+        <test-method signature="LoginSuccessful()[pri:2, instance:testCases.TC2_Login@3023df74]" started-at="2024-06-05T11:46:38 IST" name="LoginSuccessful" finished-at="2024-06-05T11:46:47 IST" duration-ms="9234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSuccessful -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC2_Login@3023df74]" started-at="2024-06-05T11:46:47 IST" name="teardown" finished-at="2024-06-05T11:46:48 IST" duration-ms="561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC2_Login -->
+      <class name="testCases.TC1_ACRegistration">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC1_ACRegistration@35d019a3]" started-at="2024-06-05T11:46:15 IST" name="setup" finished-at="2024-06-05T11:46:19 IST" duration-ms="4301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Registration()[pri:1, instance:testCases.TC1_ACRegistration@35d019a3]" started-at="2024-06-05T11:46:19 IST" name="Verify_Registration" finished-at="2024-06-05T11:46:28 IST" duration-ms="8785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Registration -->
+        <test-method signature="Verify_Registrations()[pri:2, instance:testCases.TC1_ACRegistration@35d019a3]" started-at="2024-06-05T11:46:28 IST" name="Verify_Registrations" finished-at="2024-06-05T11:46:32 IST" duration-ms="3318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Registrations -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC1_ACRegistration@35d019a3]" started-at="2024-06-05T11:46:32 IST" name="teardown" finished-at="2024-06-05T11:46:32 IST" duration-ms="545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC1_ACRegistration -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

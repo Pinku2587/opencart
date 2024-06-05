@@ -1,0 +1,53 @@
+16:23:08.252 [TestNG-tests-1] INFO  testCases.TC1_ACRegistration - Alert is correct
+16:23:08.699 [TestNG-tests-1] INFO  testCases.TC1_ACRegistration - Clicked on T&C Check Box
+16:23:08.700 [TestNG-tests-1] INFO  testCases.TC1_ACRegistration - ***** Finishing TC1_AcRegistration *****
+16:35:03.312 [main] INFO  testCases.TC1_ACRegistration - ***** Starting TC1_AcRegistration *****
+16:35:04.070 [main] INFO  testCases.TC1_ACRegistration - Clicked on Update button
+16:35:06.449 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup button
+16:35:06.763 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup using Email button
+16:35:06.773 [main] INFO  testCases.TC1_ACRegistration - Entering user information
+16:35:07.498 [main] INFO  testCases.TC1_ACRegistration - Alert is correct
+16:35:07.807 [main] INFO  testCases.TC1_ACRegistration - Clicked on T&C Check Box
+16:35:07.807 [main] INFO  testCases.TC1_ACRegistration - ***** Finishing TC1_AcRegistration *****
+16:38:34.585 [main] INFO  testCases.TC1_ACRegistration - ***** Starting TC1_AcRegistration *****
+16:38:35.385 [main] INFO  testCases.TC1_ACRegistration - Clicked on Update button
+16:38:36.794 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup button
+16:38:37.043 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup using Email button
+16:38:37.043 [main] INFO  testCases.TC1_ACRegistration - Entering user information
+16:38:37.862 [main] INFO  testCases.TC1_ACRegistration - Alert is correct
+16:38:38.209 [main] INFO  testCases.TC1_ACRegistration - Clicked on T&C Check Box
+16:38:38.210 [main] INFO  testCases.TC1_ACRegistration - ***** Finishing TC1_AcRegistration *****
+16:39:02.049 [TestNG-tests-1] INFO  testCases.TC1_ACRegistration - ***** Starting TC1_AcRegistration *****
+16:39:02.408 [TestNG-tests-1] INFO  testCases.TC1_ACRegistration - Clicked on Update button
+16:39:04.149 [TestNG-tests-2] INFO  testCases.TC1_ACRegistration - ***** Starting TC1_AcRegistration *****
+16:39:05.149 [TestNG-tests-2] INFO  testCases.TC1_ACRegistration - Clicked on Update button
+16:39:06.017 [TestNG-tests-1] INFO  testCases.TC1_ACRegistration - Clicked on Signup button
+16:39:06.168 [TestNG-tests-1] INFO  testCases.TC1_ACRegistration - Clicked on Signup using Email button
+16:39:06.168 [TestNG-tests-1] INFO  testCases.TC1_ACRegistration - Entering user information
+16:39:06.918 [TestNG-tests-1] INFO  testCases.TC1_ACRegistration - Alert is correct
+16:39:07.271 [TestNG-tests-1] INFO  testCases.TC1_ACRegistration - Clicked on T&C Check Box
+16:39:07.271 [TestNG-tests-1] INFO  testCases.TC1_ACRegistration - ***** Finishing TC1_AcRegistration *****
+16:39:08.431 [TestNG-tests-2] INFO  testCases.TC1_ACRegistration - Clicked on Signup button
+16:39:08.894 [TestNG-tests-2] INFO  testCases.TC1_ACRegistration - Clicked on Signup using Email button
+16:39:08.894 [TestNG-tests-2] INFO  testCases.TC1_ACRegistration - Entering user information
+16:39:09.982 [TestNG-tests-2] INFO  testCases.TC1_ACRegistration - Alert is correct
+16:39:10.315 [TestNG-tests-2] INFO  testCases.TC1_ACRegistration - Clicked on T&C Check Box
+16:39:10.316 [TestNG-tests-2] INFO  testCases.TC1_ACRegistration - ***** Finishing TC1_AcRegistration *****
+16:40:32.828 [TestNG-tests-2] INFO  testCases.TC1_ACRegistration - ***** Starting TC1_AcRegistration *****
+16:40:34.193 [TestNG-tests-1] INFO  testCases.TC1_ACRegistration - ***** Starting TC1_AcRegistration *****
+16:40:34.205 [TestNG-tests-2] INFO  testCases.TC1_ACRegistration - Clicked on Update button
+16:40:35.277 [TestNG-tests-1] INFO  testCases.TC1_ACRegistration - Clicked on Update button
+16:40:37.483 [TestNG-tests-2] INFO  testCases.TC1_ACRegistration - Clicked on Signup button
+16:40:37.720 [TestNG-tests-2] INFO  testCases.TC1_ACRegistration - Clicked on Signup using Email button
+16:40:37.721 [TestNG-tests-2] INFO  testCases.TC1_ACRegistration - Entering user information
+16:40:38.301 [TestNG-tests-1] INFO  testCases.TC1_ACRegistration - Clicked on Signup button
+16:40:38.537 [TestNG-tests-1] INFO  testCases.TC1_ACRegistration - Clicked on Signup using Email button
+16:40:38.537 [TestNG-tests-1] INFO  testCases.TC1_ACRegistration - Entering user information
+16:40:38.955 [TestNG-tests-2] INFO  testCases.TC1_ACRegistration - Alert is correct
+16:40:39.357 [TestNG-tests-2] INFO  testCases.TC1_ACRegistration - Clicked on T&C Check Box
+16:40:39.358 [TestNG-tests-2] INFO  testCases.TC1_ACRegistration - ***** Finishing TC1_AcRegistration *****
+16:40:39.638 [TestNG-tests-1] INFO  testCases.TC1_ACRegistration - Alert is correct
+16:40:40.055 [TestNG-tests-1] INFO  testCases.TC1_ACRegistration - Clicked on T&C Check Box
+16:40:40.056 [TestNG-tests-1] INFO  testCases.TC1_ACRegistration - ***** Finishing TC1_AcRegistration *****
+16:43:15.060 [TestNG-tests-2] INFO  testCases.TC1_ACRegistration - ***** Starting TC1_AcRegistration *****
+16:43:15.117 [TestNG-tests-1] INFO  testCases.TC1_ACRegistration - ***** Starting TC1_AcRegistration *****

@@ -1,0 +1,58 @@
+17:26:15.889 [main] INFO  testCases.TC1_ACRegistration - Entering user information
+17:26:16.594 [main] INFO  testCases.TC1_ACRegistration - Alert is correct
+17:26:16.855 [main] INFO  testCases.TC1_ACRegistration - Clicked on T&C Check Box
+17:26:16.855 [main] INFO  testCases.TC1_ACRegistration - ***** Finishing TC1_AcRegistration *****
+17:56:20.799 [main] INFO  testCases.TC1_ACRegistration - ***** Starting TC1_AcRegistration *****
+17:56:21.842 [main] INFO  testCases.TC1_ACRegistration - Clicked on Update button
+17:56:25.610 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup button
+17:56:25.729 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup using Email button
+17:56:25.729 [main] INFO  testCases.TC1_ACRegistration - Entering user information
+17:56:26.609 [main] INFO  testCases.TC1_ACRegistration - Alert is correct
+17:56:26.888 [main] INFO  testCases.TC1_ACRegistration - Clicked on T&C Check Box
+17:56:26.889 [main] INFO  testCases.TC1_ACRegistration - ***** Finishing TC1_AcRegistration *****
+17:57:52.337 [main] INFO  testCases.TC1_ACRegistration - ***** Starting TC1_AcRegistration *****
+17:57:53.202 [main] INFO  testCases.TC1_ACRegistration - Clicked on Update button
+17:57:55.547 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup button
+17:57:55.690 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup using Email button
+17:57:55.690 [main] INFO  testCases.TC1_ACRegistration - Entering user information
+17:57:56.524 [main] INFO  testCases.TC1_ACRegistration - Alert is correct
+17:57:56.808 [main] INFO  testCases.TC1_ACRegistration - Clicked on T&C Check Box
+17:57:56.808 [main] INFO  testCases.TC1_ACRegistration - ***** Finishing TC1_AcRegistration *****
+18:10:55.306 [main] INFO  testCases.TC1_ACRegistration - ***** Starting TC1_AcRegistration *****
+18:11:01.409 [main] INFO  testCases.TC1_ACRegistration - Clicked on Update button
+18:11:03.550 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup button
+18:11:03.679 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup using Email button
+18:11:03.679 [main] INFO  testCases.TC1_ACRegistration - Entering user information
+18:11:04.414 [main] INFO  testCases.TC1_ACRegistration - Alert is correct
+18:11:04.735 [main] INFO  testCases.TC1_ACRegistration - Clicked on T&C Check Box
+18:11:04.735 [main] INFO  testCases.TC1_ACRegistration - ***** Finishing TC1_AcRegistration *****
+18:12:42.450 [main] INFO  testCases.TC1_ACRegistration - ***** Starting TC1_AcRegistration *****
+18:12:43.320 [main] INFO  testCases.TC1_ACRegistration - Clicked on Update button
+18:12:47.334 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup button
+18:12:47.460 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup using Email button
+18:12:47.460 [main] INFO  testCases.TC1_ACRegistration - Entering user information
+18:12:48.122 [main] INFO  testCases.TC1_ACRegistration - Alert is correct
+18:12:48.503 [main] INFO  testCases.TC1_ACRegistration - Clicked on T&C Check Box
+18:12:48.503 [main] INFO  testCases.TC1_ACRegistration - ***** Finishing TC1_AcRegistration *****
+18:14:57.873 [main] INFO  testCases.TC1_ACRegistration - ***** Starting TC1_AcRegistration *****
+18:14:58.745 [main] INFO  testCases.TC1_ACRegistration - Clicked on Update button
+18:15:01.952 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup button
+18:15:02.064 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup using Email button
+18:15:02.064 [main] INFO  testCases.TC1_ACRegistration - Entering user information
+18:15:02.960 [main] INFO  testCases.TC1_ACRegistration - Alert is correct
+18:15:03.281 [main] INFO  testCases.TC1_ACRegistration - Clicked on T&C Check Box
+18:15:03.282 [main] INFO  testCases.TC1_ACRegistration - ***** Finishing TC1_AcRegistration *****
+18:16:22.310 [main] INFO  testCases.TC1_ACRegistration - ***** Starting TC1_AcRegistration *****
+18:16:23.192 [main] INFO  testCases.TC1_ACRegistration - Clicked on Update button
+18:16:25.815 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup button
+18:16:25.942 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup using Email button
+18:16:25.942 [main] INFO  testCases.TC1_ACRegistration - Entering user information
+18:16:26.790 [main] INFO  testCases.TC1_ACRegistration - Alert is correct
+18:16:27.059 [main] INFO  testCases.TC1_ACRegistration - Clicked on T&C Check Box
+18:16:27.060 [main] INFO  testCases.TC1_ACRegistration - ***** Finishing TC1_AcRegistration *****
+18:19:42.305 [main] INFO  testCases.TC1_ACRegistration - ***** Starting TC1_AcRegistration *****
+18:19:43.172 [main] INFO  testCases.TC1_ACRegistration - Clicked on Update button
+18:19:45.403 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup button
+18:19:45.530 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup using Email button
+18:19:45.530 [main] INFO  testCases.TC1_ACRegistration - Entering user information
+18:19:46.276 [main] INFO  testCases.TC1_ACRegistration - Alert is correct
