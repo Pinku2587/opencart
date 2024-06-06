@@ -34,7 +34,7 @@ public class BaseClass {
 	 
 	
 
-	//@SuppressWarnings("deprecation")
+	
 	@BeforeClass(groups= {"regression","sanity","master"})
 	 @Parameters({"os","browser"})	
 	  
@@ -50,41 +50,7 @@ public class BaseClass {
 		  
 		  logger= LogManager.getLogger(this.getClass());
 		
-		  /*
-		  if(p.getProperty("execution_env").equals("remote"))
-			  
-		//os	
-			  
-		  {
-			  DesiredCapabilities capabilities = new DesiredCapabilities();
-			  if(os.equalsIgnoreCase("windows"))
-			  {
-				  capabilities.setPlatform(Platform.WIN11);
-				  
-			  }else if(os.equalsIgnoreCase("mac"))
-			  {
-				  capabilities.setPlatform(Platform.MAC);
-				 
-			  }
-			  else {
-				  System.out.println("No matching os");
-				  return;
-				  
-			  }
-			  
-			  
-		//browser
-			switch(br.toLowerCase())
-			{
-			case "chrome": capabilities.setBrowserName("chrome"); break;
-			case "edge": capabilities.setBrowserName("MicrosoftEdge"); break;
-			default: System.out.println("No matching browser"); return;
-				
-			}
-			driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
-		  }
-		  else if(p.getProperty("execution_env").equalsIgnoreCase("local"))
-          */
+		 
 		 // launching browser based on condition 
 		
 		  switch(br.toLowerCase())
