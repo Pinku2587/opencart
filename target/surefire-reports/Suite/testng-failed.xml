@@ -15,6 +15,13 @@
           <include name="Verify_LoginDDT" invocation-numbers="1"/>
         </methods>
       </class> <!-- testCases.TC3_LoginDDT -->
+      <class name="testCases.TC2_Login">
+        <methods>
+          <include name="teardown"/>
+          <include name="LoginSuccessful"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC2_Login -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

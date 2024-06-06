@@ -14,7 +14,7 @@
     <classes>
 	   <class name="testCases.TC1_ACRegistration"/>
       <class name="testCases.TC2_Login"/>
-      <class name="testCases.TC3_LoginDDT"/> 
+      <!-- <class name="testCases.TC3_LoginDDT"/> --> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

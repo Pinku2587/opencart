@@ -1,0 +1,58 @@
+18:41:24.768 [main] INFO  testCases.TC3_LoginDDT - **** Starting Login DDT cases ****
+10:45:55.639 [main] INFO  testCases.TC1_ACRegistration - ***** Starting TC1_AcRegistration *****
+10:46:01.090 [main] INFO  testCases.TC1_ACRegistration - Clicked on Update button
+10:46:05.338 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup button
+10:46:05.486 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup using Email button
+10:46:05.486 [main] INFO  testCases.TC1_ACRegistration - Entering user information
+10:46:06.279 [main] INFO  testCases.TC1_ACRegistration - Alert is correct
+10:46:06.629 [main] INFO  testCases.TC1_ACRegistration - Clicked on T&C Check Box
+10:46:06.629 [main] INFO  testCases.TC1_ACRegistration - ***** Finishing TC1_AcRegistration *****
+10:47:02.776 [main] INFO  testCases.TC3_LoginDDT - **** Starting Login DDT cases ****
+10:47:10.603 [main] INFO  testCases.TC3_LoginDDT - **** Starting Login DDT cases ****
+10:47:33.217 [main] INFO  testCases.TC3_LoginDDT - **** Starting Login DDT cases ****
+10:47:47.042 [main] INFO  testCases.TC3_LoginDDT - **** Starting Login DDT cases ****
+10:47:59.663 [main] INFO  testCases.TC3_LoginDDT - **** Starting Login DDT cases ****
+11:44:43.309 [main] INFO  testCases.TC1_ACRegistration - ***** Starting TC1_AcRegistration *****
+11:44:47.217 [main] INFO  testCases.TC1_ACRegistration - Clicked on Update button
+11:44:50.099 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup button
+11:44:50.212 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup using Email button
+11:44:50.213 [main] INFO  testCases.TC1_ACRegistration - Entering user information
+11:44:51.060 [main] INFO  testCases.TC1_ACRegistration - Alert is correct
+11:44:51.388 [main] INFO  testCases.TC1_ACRegistration - Clicked on T&C Check Box
+11:44:51.388 [main] INFO  testCases.TC1_ACRegistration - ***** Finishing TC1_AcRegistration *****
+11:45:20.822 [main] INFO  testCases.TC3_LoginDDT - **** Starting Login DDT cases ****
+11:45:25.569 [main] INFO  testCases.TC3_LoginDDT - **** Starting Login DDT cases ****
+11:46:19.902 [main] INFO  testCases.TC1_ACRegistration - ***** Starting TC1_AcRegistration *****
+11:46:24.624 [main] INFO  testCases.TC1_ACRegistration - Clicked on Update button
+11:46:27.418 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup button
+11:46:27.523 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup using Email button
+11:46:27.523 [main] INFO  testCases.TC1_ACRegistration - Entering user information
+11:46:28.355 [main] INFO  testCases.TC1_ACRegistration - Alert is correct
+11:46:28.665 [main] INFO  testCases.TC1_ACRegistration - Clicked on T&C Check Box
+11:46:28.665 [main] INFO  testCases.TC1_ACRegistration - ***** Finishing TC1_AcRegistration *****
+13:14:10.904 [main] INFO  testCases.TC1_ACRegistration - ***** Starting TC1_AcRegistration *****
+13:14:11.785 [main] INFO  testCases.TC1_ACRegistration - Clicked on Update button
+13:14:14.815 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup button
+13:14:15.064 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup using Email button
+13:14:15.064 [main] INFO  testCases.TC1_ACRegistration - Entering user information
+13:14:15.776 [main] INFO  testCases.TC1_ACRegistration - Alert is correct
+13:14:16.105 [main] INFO  testCases.TC1_ACRegistration - Clicked on T&C Check Box
+13:14:16.105 [main] INFO  testCases.TC1_ACRegistration - ***** Finishing TC1_AcRegistration *****
+13:14:39.008 [main] INFO  testCases.TC3_LoginDDT - **** Starting Login DDT cases ****
+13:14:45.171 [main] INFO  testCases.TC3_LoginDDT - **** Starting Login DDT cases ****
+13:15:08.361 [main] INFO  testCases.TC3_LoginDDT - **** Starting Login DDT cases ****
+13:15:28.517 [main] INFO  testCases.TC3_LoginDDT - **** Starting Login DDT cases ****
+13:15:41.120 [main] INFO  testCases.TC3_LoginDDT - **** Starting Login DDT cases ****
+14:47:16.942 [main] INFO  testCases.TC1_ACRegistration - ***** Starting TC1_AcRegistration *****
+14:47:38.824 [main] INFO  testCases.TC1_ACRegistration - Clicked on Update button
+14:47:40.204 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup button
+14:47:40.479 [main] INFO  testCases.TC1_ACRegistration - Clicked on Signup using Email button
+14:47:40.480 [main] INFO  testCases.TC1_ACRegistration - Entering user information
+14:47:41.122 [main] INFO  testCases.TC1_ACRegistration - Alert is correct
+14:47:41.442 [main] INFO  testCases.TC1_ACRegistration - Clicked on T&C Check Box
+14:47:41.442 [main] INFO  testCases.TC1_ACRegistration - ***** Finishing TC1_AcRegistration *****
+14:48:23.871 [main] INFO  testCases.TC3_LoginDDT - **** Starting Login DDT cases ****
+14:48:29.213 [main] INFO  testCases.TC3_LoginDDT - **** Starting Login DDT cases ****
+14:48:52.248 [main] INFO  testCases.TC3_LoginDDT - **** Starting Login DDT cases ****
+14:49:12.529 [main] INFO  testCases.TC3_LoginDDT - **** Starting Login DDT cases ****
+14:58:07.772 [TestNG-tests-1] INFO  testCases.TC1_ACRegistration - ***** Starting TC1_AcRegistration *****
