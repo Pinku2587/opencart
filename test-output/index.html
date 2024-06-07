@@ -7,7 +7,7 @@
 
     <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
     <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
-    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -21,11 +21,12 @@
      -->
   </head>
 
-  <body>    <div class="top-banner-root">
+  <body>
+    <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -50,17 +51,17 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\RomilSinghtwadia\eclipse-workspace\opencart\crossbrowsertests.xml</span>
+                    <span>C:\Users\RomilSinghtwadia\eclipse-workspace\opencart\master.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>2 groups</span>
+                    <span>3 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 4 failed,   </span>
+                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,25 +104,59 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC1_ACRegistration" class="method navigator-link" hash-for-method="Verify_Registration">Verify_Registration</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC1_ACRegistration" class="method navigator-link" hash-for-method="Verify_Registration">Verify_Registration</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC1_ACRegistration" class="method navigator-link" hash-for-method="Verify_Registrations">Verify_Registrations</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC1_ACRegistration" class="method navigator-link" hash-for-method="Verify_Registrations">Verify_Registrations</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC3_LoginDDT" class="method navigator-link" hash-for-method="Verify_LoginDDT(mukesh, , Invalid)">Verify_LoginDDT(mukesh, , Invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC2_Login" class="method navigator-link" hash-for-method="LoginSuccessful">LoginSuccessful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC2_Login" class="method navigator-link" hash-for-method="Logo">Logo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC3_LoginDDT" class="method navigator-link" hash-for-method="Verify_LoginDDT(, mukesh, Invalid)">Verify_LoginDDT(, mukesh, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC3_LoginDDT" class="method navigator-link" hash-for-method="Verify_LoginDDT(romilec9shrinathji@gmail.com, 123456, Valid)">Verify_LoginDDT(romilec9shrinathji@gmail.com, 123456, Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC3_LoginDDT" class="method navigator-link" hash-for-method="Verify_LoginDDT(, , Invalid)">Verify_LoginDDT(, , Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC3_LoginDDT" class="method navigator-link" hash-for-method="Verify_LoginDDT(romil.singhtwadia@kadellabs.com, 123456, Valid)">Verify_LoginDDT(romil.singhtwadia@kadellabs.com, 123456, Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC1_ACRegistration" class="method navigator-link" hash-for-method="Verify_Registration">Verify_Registration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC1_ACRegistration" class="method navigator-link" hash-for-method="Verify_Registrations">Verify_Registrations</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -136,55 +171,24 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">testCases.TC1_ACRegistration</span>
+              <span class="class-name">testCases.TC3_LoginDDT</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Verify_Registration">
-                  </a> <!-- Verify_Registration -->
-                  <span class="method-name">Verify_Registration</span>
-                  <div class="stack-trace">java.lang.AssertionError: null
-	at testCases.TC1_ACRegistration.Verify_Registration(TC1_ACRegistration.java:54)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1570)
-... Removed 17 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Verify_Registration">
-                  </a> <!-- Verify_Registration -->
-                  <span class="method-name">Verify_Registration</span>
-                  <div class="stack-trace">java.lang.AssertionError: null
-	at testCases.TC1_ACRegistration.Verify_Registration(TC1_ACRegistration.java:54)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1570)
-... Removed 17 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Verify_Registrations">
-                  </a> <!-- Verify_Registrations -->
-                  <span class="method-name">Verify_Registrations</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//i[@class=&apos;i-icon&apos;]//*[name()=&apos;svg&apos;]&quot;}
-  (Session info: MicrosoftEdge=125.0.2535.85)
+                  <a name="Verify_LoginDDT(mukesh, , Invalid)">
+                  </a> <!-- Verify_LoginDDT(mukesh, , Invalid) -->
+                  <span class="method-name">Verify_LoginDDT</span>
+                  <span class="parameters">(mukesh, , Invalid)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;You need to enter a username&apos;)]&quot;}
+  (Session info: chrome=125.0.6422.78)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [1acedd843ff7f72cb7be16f2050f8f80, findElement {using=xpath, value=//i[@class=&apos;i-icon&apos;]//*[name()=&apos;svg&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.85, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52804}, msedge: {msedgedriverVersion: 125.0.2535.79 (7e3dd970e483..., userDataDir: C:\Users\ROMILS~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52804/devtoo..., se:cdpVersion: 125.0.2535.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1acedd843ff7f72cb7be16f2050f8f80
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [12cc0c0f947ef48b5f52d1b877ad251a, findElement {value=//span[contains(text(),&apos;You need to enter a username&apos;)], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.78, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\ROMILS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65382}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65382/devtoo..., se:cdpVersion: 125.0.6422.78, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 12cc0c0f947ef48b5f52d1b877ad251a
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -198,16 +202,27 @@ Session ID: 1acedd843ff7f72cb7be16f2050f8f80
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
-	at pageObjects.Registration.CLickArrowBack(Registration.java:68)
-	at testCases.TC1_ACRegistration.Verify_Registrations(TC1_ACRegistration.java:67)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.getText(Unknown Source)
+	at pageObjects.LoginPage.TextManadatoryMessageUsername(LoginPage.java:84)
+	at testCases.TC3_LoginDDT.Verify_LoginDDT(TC3_LoginDDT.java:139)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1570)
-... Removed 18 stack frames
+... Removed 28 stack frames
 </div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC1_ACRegistration</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Registration">
+                  </a> <!-- Verify_Registration -->
+                  <span class="method-name">Verify_Registration</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -215,68 +230,94 @@ Session ID: 1acedd843ff7f72cb7be16f2050f8f80
                   <a name="Verify_Registrations">
                   </a> <!-- Verify_Registrations -->
                   <span class="method-name">Verify_Registrations</span>
-                  <div class="stack-trace">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [1acedd843ff7f72cb7be16f2050f8f80, findElement [using, value]]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.85, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52804}, msedge: {msedgedriverVersion: 125.0.2535.79 (7e3dd970e483..., userDataDir: C:\Users\ROMILS~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52804/devtoo..., se:cdpVersion: 125.0.2535.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1acedd843ff7f72cb7be16f2050f8f80
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
-	at pageObjects.Registration.CLickArrowBack(Registration.java:68)
-	at testCases.TC1_ACRegistration.Verify_Registrations(TC1_ACRegistration.java:67)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1570)
-Caused by: java.lang.NullPointerException: Cannot invoke &quot;java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)&quot; because &quot;this.client&quot; is null
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	... 29 more
-... Removed 15 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC3_LoginDDT</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_LoginDDT(, mukesh, Invalid)">
+                  </a> <!-- Verify_LoginDDT(, mukesh, Invalid) -->
+                  <span class="method-name">Verify_LoginDDT</span>
+                  <span class="parameters">(, mukesh, Invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_LoginDDT(romilec9shrinathji@gmail.com, 123456, Valid)">
+                  </a> <!-- Verify_LoginDDT(romilec9shrinathji@gmail.com, 123456, Valid) -->
+                  <span class="method-name">Verify_LoginDDT</span>
+                  <span class="parameters">(romilec9shrinathji@gmail.com, 123456, Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_LoginDDT(, , Invalid)">
+                  </a> <!-- Verify_LoginDDT(, , Invalid) -->
+                  <span class="method-name">Verify_LoginDDT</span>
+                  <span class="parameters">(, , Invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_LoginDDT(romil.singhtwadia@kadellabs.com, 123456, Valid)">
+                  </a> <!-- Verify_LoginDDT(romil.singhtwadia@kadellabs.com, 123456, Valid) -->
+                  <span class="method-name">Verify_LoginDDT</span>
+                  <span class="parameters">(romil.singhtwadia@kadellabs.com, 123456, Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC2_Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginSuccessful">
+                  </a> <!-- LoginSuccessful -->
+                  <span class="method-name">LoginSuccessful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logo">
+                  </a> <!-- Logo -->
+                  <span class="method-name">Logo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\RomilSinghtwadia\eclipse-workspace\opencart\crossbrowsertests.xml</span>
+            <span class="header-content">C:\Users\RomilSinghtwadia\eclipse-workspace\opencart\master.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;chrometest&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.TC1_ACRegistration&quot;/&gt;
+      &lt;class name=&quot;testCases.TC2_Login&quot;/&gt;
+      &lt;class name=&quot;testCases.TC3_LoginDDT&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- chrometest --&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;edgetest&quot;&gt;
-    &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;testCases.TC1_ACRegistration&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- edgetest --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -288,10 +329,7 @@ Caused by: java.lang.NullPointerException: Cannot invoke &quot;java.net.http.Htt
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">chrometest (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">edgetest (1 class)</span>
+                <span class="test-name">Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -304,6 +342,14 @@ Caused by: java.lang.NullPointerException: Cannot invoke &quot;java.net.http.Htt
             <div class="test-group">
               <span class="test-group-name">master</span>
               <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginSuccessful</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Logo</span>
+                <br/>
+              </div> <!-- method-in-group -->
               <div class="method-in-group">
                 <span class="method-in-group-name">Verify_Registration</span>
                 <br/>
@@ -325,6 +371,18 @@ Caused by: java.lang.NullPointerException: Cannot invoke &quot;java.net.http.Htt
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginSuccessful</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Logo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Suite" class="panel">
@@ -341,28 +399,48 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Verify_Registration')
-data.setCell(0, 2, 'testCases.TC1_ACRegistration')
-data.setCell(0, 3, 17307);
+data.setCell(0, 1, 'Verify_LoginDDT')
+data.setCell(0, 2, 'testCases.TC3_LoginDDT')
+data.setCell(0, 3, 23082);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Verify_Registrations')
-data.setCell(1, 2, 'testCases.TC1_ACRegistration')
-data.setCell(1, 3, 10062);
+data.setCell(1, 1, 'Verify_LoginDDT')
+data.setCell(1, 2, 'testCases.TC3_LoginDDT')
+data.setCell(1, 3, 12606);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Verify_Registration')
-data.setCell(2, 2, 'testCases.TC1_ACRegistration')
-data.setCell(2, 3, 932);
+data.setCell(2, 1, 'Verify_LoginDDT')
+data.setCell(2, 2, 'testCases.TC3_LoginDDT')
+data.setCell(2, 3, 12500);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Verify_Registrations')
-data.setCell(3, 2, 'testCases.TC1_ACRegistration')
-data.setCell(3, 3, 6);
+data.setCell(3, 1, 'Verify_LoginDDT')
+data.setCell(3, 2, 'testCases.TC3_LoginDDT')
+data.setCell(3, 3, 12400);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'LoginSuccessful')
+data.setCell(4, 2, 'testCases.TC2_Login')
+data.setCell(4, 3, 9251);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Verify_LoginDDT')
+data.setCell(5, 2, 'testCases.TC3_LoginDDT')
+data.setCell(5, 3, 6184);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Verify_Registration')
+data.setCell(6, 2, 'testCases.TC1_ACRegistration')
+data.setCell(6, 3, 5334);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Verify_Registrations')
+data.setCell(7, 2, 'testCases.TC1_ACRegistration')
+data.setCell(7, 3, 4596);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Logo')
+data.setCell(8, 2, 'testCases.TC2_Login')
+data.setCell(8, 3, 1040);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 27 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -393,43 +471,69 @@ return data;
                 <span class="method-name">setup(Windows, chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Verify_Registration</span>
+                <span class="method-start">10232 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Registrations</span>
+                <span class="method-start">15608 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">20208 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC2_Login</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setup(Windows, edge)</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">20795 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">Verify_Registration</span>
-                <span class="method-start">8612 ms</span>
+                <span class="method-name">Logo</span>
+                <span class="method-start">26361 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">Verify_Registration</span>
-                <span class="method-start">11504 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">Verify_Registrations</span>
-                <span class="method-start">12453 ms</span>
+                <span class="method-name">LoginSuccessful</span>
+                <span class="method-start">27407 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">22522 ms</span>
+                <span class="method-start">36659 ms</span>
               </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC3_LoginDDT</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">37439 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Verify_LoginDDT(romilec9shrinathji@gmail.com, 123456, Valid)</span>
+                <span class="method-start">41923 ms</span>
+              </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">Verify_Registrations</span>
-                <span class="method-start">25921 ms</span>
+                <span class="method-name">Verify_LoginDDT(mukesh, , Invalid)</span>
+                <span class="method-start">48110 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_LoginDDT(, mukesh, Invalid)</span>
+                <span class="method-start">71341 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_LoginDDT(, , Invalid)</span>
+                <span class="method-start">83745 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_LoginDDT(romil.singhtwadia@kadellabs.com, 123456, Valid)</span>
+                <span class="method-start">96251 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">teardown</span>
-                <span class="method-start">25931 ms</span>
+                <span class="method-start">108861 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

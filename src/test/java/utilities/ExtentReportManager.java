@@ -1,16 +1,22 @@
+
 package utilities;
 
 import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;
 //import java.net.URL;
+import java.net.Authenticator;
+import java.net.PasswordAuthentication;
 
 //Extent report 5.x...//version
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
+import java.util.Properties;
 
+import org.apache.hc.core5.http.Message;
+import org.openqa.selenium.virtualauthenticator.VirtualAuthenticatorOptions.Transport;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -109,6 +115,16 @@ public class ExtentReportManager implements ITestListener {
 			e.printStackTrace();
 		}
 
+		
+		}
+	
+	
+            
+	
+
+	
+	
+	
 		/*
 		 * try { URL url = new
 		 * URL("file:///"+System.getProperty("user.dir")+"\\reports\\"+repName);
@@ -131,4 +147,4 @@ public class ExtentReportManager implements ITestListener {
 		 */
 	}
 
-}
+
