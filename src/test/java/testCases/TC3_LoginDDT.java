@@ -136,7 +136,7 @@ Assert.assertTrue(false);
  {
  
  
- if((lp.TextManadatoryMessageUsername().equals("You need to enter a username") || lp.TextManadatoryMessagePassword().equals("You need to enter password")) || lp.DisplayMandatoryMessageUsername() && lp.DisplayMandatoryMessagePassword()==true)
+ if((lp.TextManadatoryMessageUsername().equals("You need to enter a username") || lp.TextManadatoryMessagePassword().equals("You need to enter password")) || lp.TextManadatoryMessageUsername().equals("You need to enter a username") && lp.TextManadatoryMessagePassword().equals("You need to enter password"))
  {
 	Assert.assertTrue(true);
 	
